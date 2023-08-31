@@ -29,7 +29,7 @@ class ApiservisYazar {
   }
 }
 */
-String baseUrl = 'http://172.20.10.5:44373/api';
+String baseUrl = 'http://localhost:44373/api';
 Request request({required String url}){
    var headers = {'Content-Type': 'application/json'};
       var request = http.Request(
